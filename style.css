@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(59, 59, 196);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header img{
+    width: auto;    
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
