@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     height: 100dvh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: white;
+    background: black;
 }
 header{
     background: black;
@@ -21,6 +24,7 @@ header{
     right: 0;
     left: 0;
     z-index: 999;
+    border-bottom: #ffffff 3px solid;
 
 }
 header img{
@@ -35,7 +39,7 @@ header nav{
 header nav a{
     text-decoration: none;
     color: #ffffff;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Fragment Mono", monospace;
     font-size: 25px;
     margin-left: 20px;
 }
@@ -46,4 +50,112 @@ header nav a:hover{
 }
 main{
     padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+    width: 80rem;
+    margin: auto;
+    flex-grow: 3;
+}
+
+footer{
+    background: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Fragment Mono", monospace;
+}
+
+h1{
+    font-family: "Fragment Mono", monospace;
+    font-size: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    text-shadow: white 0px 0px 3px;
+}
+.ett{
+    font-family: "Fragment Mono", monospace;
+    font-size: 18px;
+    margin-bottom: 80px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    border: rgba(255, 255, 255, 0) 4px solid;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: white 0px 0px 20px;
+}
+.ett img{
+    height: 300px;
+    width: 600px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: #ffffff 0px solid;
+    border-radius: 1rem;
+}
+
+.ett p{
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.två{
+    font-family: "Fragment Mono", monospace;
+    font-size: 18px;
+    margin-bottom: 80px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    border: rgba(0, 0, 0, 0) 4px solid;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: white 0px 0px 20px;
+}
+.två img{
+    height: 300px;
+    width: 600px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: #ffffff 0px solid;
+    border-radius: 1rem;
+}
+
+.två p{
+    padding: 60px 20px 20px 20px;
+    line-height: 1.5;
+}
+
+.tre{
+    font-family: "Fragment Mono", monospace;
+    font-size: 18px;
+    margin-bottom: 80px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    border: rgba(0, 0, 0, 0) 4px solid;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: white 0px 0px 20px;
+}
+.tre img{
+    height: 300px;
+    width: 600px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: #ffffff 0px solid;
+    border-radius: 1rem;
+}
+
+.tre p{
+    padding: 80px 20px 20px 20px;
+    line-height: 1.5;
 }
