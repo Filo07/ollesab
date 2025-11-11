@@ -48,6 +48,22 @@ header nav a:hover{
     transition: 0.2s;
     
 }
+.intro{
+    display: flex;
+    margin: 40px 0 80px 0;
+    height: 550px;
+    background: linear-gradient(180deg,rgba(255, 255, 255, 0) 0%, rgba(87, 87, 87, 0.38) 0%, rgba(0, 0, 0, 1) 100%), url("https://sejongvina.com/images/thumbs/0000587_Palnetary%20Gear_1450.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: #ffffff 0px solid;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Fragment Mono", monospace;
+    font-size: 50px;
+    text-shadow: #ffffff 0px 0px 20px;
+}
 main{
     padding-top: 80px;
     align-items: center;
@@ -67,15 +83,6 @@ footer{
     font-family: "Fragment Mono", monospace;
 }
 
-h1{
-    font-family: "Fragment Mono", monospace;
-    font-size: 50px;
-    margin-bottom: 100px;
-    text-align: center;
-    padding-top: 100px;
-    color: white;
-    text-shadow: white 0px 0px 3px;
-}
 .ett{
     font-family: "Fragment Mono", monospace;
     font-size: 18px;
@@ -159,3 +166,35 @@ h1{
     padding: 80px 20px 20px 20px;
     line-height: 1.5;
 }
+
+.fyra{
+    font-family: "Fragment Mono", monospace;
+    font-size: 18px;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 80px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    height: fit-content;
+    border: rgba(0, 0, 0, 0) 4px solid;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: white 0px 0px 20px;
+}
+.fyra button{
+    margin-left: 20px;
+    height: 50px;
+    width: 120px;
+    font-family: "Fragment Mono", monospace;
+    font-size: 18px;
+    border-radius: 8px;
+    border: black 2px solid;
+    background: black;
+    color: white;
+    cursor: pointer;}
+button:hover{
+    background: white;
+    color: black;
+    transition: 0.2s;
+ }
